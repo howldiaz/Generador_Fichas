@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Creador de fichas</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="raza">Raza</string>
+    <string name="sig">Siguiente</string>
+    <string-array name="razas">
+        <item>Humano</item>
+        <item>Elfo</item>
+        <item>Enano</item>
+        <item>Hada</item>
+        <item>Duende</item>
+        <item>Goblin</item>
+        <item>Orco</item>
+    </string-array>
+    <string-array name="clases">
+        <item>Guerrero</item>
+        <item>Mago</item>
+        <item>Monje</item>
+        <item>Alquimista</item>
+    </string-array>
+    <string name="fuerza">Fuerza</string>
+    <string name="destreza">Destreza</string>
+    <string name="resistencia">Resistencia</string>
+    <string name="inteligencia">Inteligencia</string>
+    <string name="percepcion">Percepcion</string>
+    <string name="voluntad">Voluntad</string>
+    <string name="carisma">Carisma</string>
+    <string name="apariencia">Apariencia</string>
+    <string name="manipulacion">Manipulacion</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+
+    <string name="fisicoP">Fisicas</string>
+    <string name="mentalP">Mentales</string>
+    <string name="socialP">Sociales</string>
+
+    <string name="deslizaIzquierda">&lt;&lt; Desliza la pantalla</string>
+    <string name="deslizaCentro">&lt;&lt; Desliza la pantalla &gt;&gt;</string>
+    <string name="deslizaDerecha">Desliza la pantalla &gt;&gt;</string>
+
+    <string name="pelea">Pelea</string>
+    <string name="atletismo">Atletismo</string>
+    <string name="robar">Robar</string>
+    <string name="sigilo">Sigilo</string>
+    <string name="nadar">Nadar</string>
+    <string name="montar">Montar</string>
+    <string name="abrirCerr">Abrir Cerr.</string>
+    <string name="resDolorF">Res. al dolor</string>
+    <string name="escalar">Escalar</string>
+    <string name="evadir">Evadir</string>
+    <string name="bloquear">Bloquear</string>
+    <string name="esquivar">Esquivar</string>
+
+    <string name="alerta">Alerta</string>
+    <string name="supervivencia">Supervivencia</string>
+    <string name="coherencia">Coherencia</string>
+    <string name="rastrear">Rastrear</string>
+    <string name="concentración">Concentración</string>
+    <string name="buscar">Buscar</string>
+    <string name="esconderse">Esconderse</string>
+    <string name="resistencia_al_dolor">Res. al dolor</string>
+    <string name="estrategia">Estrategia</string>
+    <string name="escuchar">Escuchar</string>
+    <string name="conoGeneral">Con. General</string>
+    <string name="tasar">Tasar</string>
+
+    <string name="mentir">Mentir</string>
+    <string name="empatia">Empatia</string>
+    <string name="liderazgo">Liderazgo</string>
+    <string name="intimidar">Intimidar</string>
+    <string name="callejeo">Callejeo</string>
+    <string name="comercio">Comercio</string>
+    <string name="seducir">Seducir</string>
+    <string name="protocolo">Protocolo</string>
+    <string name="convencer">Convencer</string>
+    <string name="actuar">Actuar</string>
+    <string name="timar">Timar</string>
+    <string name="disfraz">Disfraz</string>
+
+    <string name="atras">Atrás</string>
+    <string name="poderes">Poderes</string>
+    <string name="inventario">Inventario</string>
+
+</resources>

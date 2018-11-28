@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principales">
+
+    <Button
+        android:id="@+id/sig3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="460dp"
+        android:text="@string/sig"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fValue" />
+
+    <TextView
+        android:id="@+id/rValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dValue" />
+
+    <TextView
+        android:id="@+id/iValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rValue" />
+
+    <TextView
+        android:id="@+id/pValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iValue" />
+
+    <TextView
+        android:id="@+id/vValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pValue" />
+
+    <TextView
+        android:id="@+id/cValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vValue" />
+
+    <TextView
+        android:id="@+id/aValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cValue" />
+
+    <SeekBar
+        android:id="@+id/sbCarisma"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbVoluntad" />
+
+    <SeekBar
+        android:id="@+id/sbManipulacion"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbApariencia" />
+
+    <TextView
+        android:id="@+id/carisma"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/carisma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/voluntad" />
+
+    <TextView
+        android:id="@+id/apariencia"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/apariencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carisma" />
+
+    <SeekBar
+        android:id="@+id/sbInteligencia"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbResistencia" />
+
+    <SeekBar
+        android:id="@+id/sbVoluntad"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbPercepcion" />
+
+    <SeekBar
+        android:id="@+id/sbDestreza"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbFuerza" />
+
+    <SeekBar
+        android:id="@+id/sbFuerza"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fuerza"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/fuerza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/destreza"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/destreza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuerza" />
+
+    <TextView
+        android:id="@+id/resistencia"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/resistencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/destreza" />
+
+    <SeekBar
+        android:id="@+id/sbResistencia"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbDestreza" />
+
+    <TextView
+        android:id="@+id/voluntad"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/voluntad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/percepcion" />
+
+    <TextView
+        android:id="@+id/percepcion"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/percepcion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inteligencia" />
+
+    <TextView
+        android:id="@+id/inteligencia"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/inteligencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resistencia" />
+
+    <SeekBar
+        android:id="@+id/sbPercepcion"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbInteligencia" />
+
+    <TextView
+        android:id="@+id/manipulacion"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/manipulacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apariencia" />
+
+    <SeekBar
+        android:id="@+id/sbApariencia"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:max="10"
+        android:progress="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbCarisma" />
+
+    <TextView
+        android:id="@+id/fValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mValue"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aValue" />
+
+    <TextView
+        android:id="@+id/pTotales"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mValue" />
+
+    <TextView
+        android:id="@+id/social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="20dp"
+        android:text="Restantes:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sbManipulacion" />
+
+</android.support.constraint.ConstraintLayout>
